@@ -12,15 +12,15 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url('/rick.jpg');
+  background-image: url('/celular.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-@media (width <= 768px){
+@media (width >= 768px){
   body{
-    background-image: url('/celular.jpg');
+    background-image: url('/rick.jpg');
   }
 }
