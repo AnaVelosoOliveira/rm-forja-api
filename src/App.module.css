@@ -18,6 +18,28 @@
   width: 100%;
 }
 
+.infoBtn{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-color: #250246;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: all 200ms ease-in-out;
+}
+
+.infoBtn:hover{
+  cursor: pointer;
+  opacity: 1;
+  box-shadow:  rgba(49, 46, 240, 0.459) -5px 5px, rgba(49, 46, 240, 0.3) -10px 10px, rgba(24, 38, 236, 0.411) -15px 15px, rgba(15, 30, 240, 0.267) -20px 20px, rgba(49, 46, 240, 0.05) -25px 25px;
+}
+
+
+
 @media (width >= 768px){
   .title{
     font-size: 4rem;
